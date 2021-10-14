@@ -1,0 +1,28 @@
+#form-test {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  width: 500px;
+  margin: 50px auto;
+}
+
+#form-test h1 {
+  margin-bottom: 30px;
+}
+
+#form-test #submit {
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+}
+
+.two-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  justify-items: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.two-inputs #input {
+  width: 90%;
+}
